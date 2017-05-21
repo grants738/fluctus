@@ -24,17 +24,23 @@ fluctus(ID,Color, Zoom, Delay, Opacity, Height);
 ### Parameters
 
 1. ID
-	⋅⋅⋅The ID of the canvas element the wave should be drawn on.
+
+   The ID of the canvas element the wave should be drawn on.
 2. Color
-	⋅⋅⋅The fill color (HEX) of the wave.
+
+   The fill color (HEX) of the wave.
 3. Zoom
-	⋅⋅⋅The Zoom value should be anywhere from 0 to 2.5 to produce desirable results. The lower the zoom value, the more waves the Fluctus will produce.
+
+   The Zoom value should be anywhere from 0 to 2.5 to produce desirable results. The lower the zoom value, the more waves the Fluctus will produce.
 4. Delay
-	⋅⋅⋅The Delay value shifts the wave left and right. Lower values shift the wave to the right while higher values shift the wave to the left. Nominal values are 0 through 1000.
+
+   The Delay value shifts the wave left and right. Lower values shift the wave to the right while higher values shift the wave to the left. Nominal values are 0 through 1000.
 5. Opacity
-	⋅⋅⋅The opacity parameter sets the alpha of the wave. A value of 1 would be completely opaque while a value of 0 would be completely transparant.
+
+   The opacity parameter sets the alpha of the wave. A value of 1 would be completely opaque while a value of 0 would be completely transparant.
 6. Height
-	⋅⋅⋅The Height parameter manipulates the height of the wave. This is useful for "stacking" waves. The default height is 80.
+
+   The Height parameter manipulates the height of the wave. This is useful for "stacking" waves. The default height is 80.
 
 Mess around with the Zoom, Delay, Opacity, and Height values to get the desired effect.
 
