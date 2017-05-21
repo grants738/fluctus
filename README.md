@@ -10,11 +10,10 @@ This package provides the ability to create beautiful waves with the use of the 
 
 ## Quick Start
 
-Fluctus Requires 3 things:
+Fluctus Requires 2 things:
 
 1. A Canvas element ``` <canvas class="fluctus" id="wave1"></canvas> ```
-2. Some custom CSS ``` <link rel="stylesheet" href="/css/fluctus.css"> ```
-3. The Javascript ``` <script src="/js/fluctus.js"></script> ```
+2. The Javascript ``` <script src="/js/fluctus.js"></script> ```
 
 Creating a new wave is as simple as passing in 6 arguments into the Fluctus create method:
 
@@ -48,18 +47,18 @@ Mess around with the Zoom, Delay, Opacity, and Height values to get the desired 
 ```
 
 ```javascript
-fluctus("wave", "#fff", 1.2, 0, true, 80);
+fluctus("wave", "#fff", 1.2, 0, 1, 80);
 ```
 
 <p align="center"><img src="https://eagleappteam.com/images/waveexample1.png"></p>
+
+### Multiple Stacked Waves
 
 ```
 <canvas id="wave1"></canvas>
 <canvas id="wave2"></canvas>
 <canvas id="wave3"></canvas>
 ```
-
-### Multiple Stacked Waves
 
 ```javascript
 fluctus("wave1", "#66a6ff", 1.2, 350, 1, 80);
