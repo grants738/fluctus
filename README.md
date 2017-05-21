@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This package provides the ability to create beautiful waves with the use of the HTML canvas element. Fluctus uses vanilla JS to and is super lightweight.
+This package provides the ability to create beautiful waves with the use of the HTML canvas element. Fluctus uses vanilla JS and is super lightweight.
 
 ## Quick Start
 
@@ -18,10 +18,54 @@ Fluctus Requires 3 things:
 
 Creating a new wave is as simple as passing in 6 arguments into the Fluctus create method:
 
-``` fluctus(ID of Canvas Element, HEX Color, Zoom, Delay, Transparency, Height Value); ```
+```javascript
+fluctus(ID,Color, Zoom, Delay, Opacity, Height); 
+```
 
-Mess around with the Zoom, Delay, Transparency, and Height values to get the look you want.
+###Parameters
 
-## Example
+1. ID
+	The ID of the canvas element the wave should be drawn on.
+2. Color
+	The fill color (HEX) of the wave.
+3. Zoom
+	The Zoom value should be anywhere from 0 to 2.5 to produce desirable results. The lower the zoom value, the more waves the Fluctus will produce.
+4. Delay
+	The Delay value shifts the wave left and right. Lower values shift the wave to the right while higher values shift the wave to the left. Nominal values are 0 through 1000.
+5. Opacity
+	The opacity parameter sets the alpha of the wave. A value of 1 would be completely opaque while a value of 0 would be completely transparant.
+6. Height
+	The Height parameter manipulates the height of the wave. This is useful for "stacking" waves. The default height is 80.
 
-``` fluctus("#sineWave", "#fff", 1.2, 0, true, 80); ```
+Mess around with the Zoom, Delay, Opacity, and Height values to get the desired effect.
+
+## Examples
+
+### Single Wave
+
+```
+<canvas id="wave"></canvas>
+```
+
+```javascript
+fluctus("wave", "#fff", 1.2, 0, true, 80);
+```
+
+<p align="center"><img src="https://eagleappteam.com/images/waveexample1.png"></p>
+
+```
+<canvas id="wave1"></canvas>
+<canvas id="wave2"></canvas>
+<canvas id="wave3"></canvas>
+```
+
+### Multiple Stacked Waves
+
+```javascript
+fluctus("wave1", "#66a6ff", 1.2, 350, 1, 80);
+fluctus("wave2", "#89DDFF", 1.2, 0, 0.5, 80);
+fluctus("wave3", "#89f7fe", 0.9, 450, 0.5, 150);
+```
+
+<p align="center"><img src="https://eagleappteam.com/images/waveexample2.png"></p>
+
