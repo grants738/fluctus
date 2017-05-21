@@ -1,6 +1,6 @@
 <h1 align="center">Fluctus</h1>
 
-<p align="center"><img src="https://eagleappteam.com/images/waves2.png"></p>
+<p align="center"><img src="https://eagleappteam.com/images/waves3.png"></p>
 
 <p align="center">A Javascript package for creating beautiful wave forms.</p>
 
