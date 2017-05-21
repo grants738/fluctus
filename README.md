@@ -53,7 +53,7 @@ Mess around with the Zoom, Delay, Opacity, and Height values to get the desired 
 ```
 
 ```javascript
-fluctus("wave", "#fff", 1.2, 0, 1, 80);
+fluctus("wave", "#66a6ff", 1.2, 0, 1, 80);
 ```
 
 <p align="center"><img src="https://eagleappteam.com/images/waveexample1.png"></p>

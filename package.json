@@ -1,0 +1,25 @@
+{
+  "name": "fluctus",
+  "version": "1.0.0",
+  "description": "A package for creating beautiful wave forms.",
+  "main": "fluctus.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grants738/fluctus.git"
+  },
+  "keywords": [
+    "wave",
+    "waves",
+    "canvas",
+    "js",
+    "javascript",
+    "vanilla",
+    "sine"
+  ],
+  "author": "Grant Savage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grants738/fluctus/issues"
+  },
+  "homepage": "https://github.com/grants738/fluctus#readme"
+}
