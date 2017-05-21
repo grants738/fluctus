@@ -4,7 +4,7 @@
 
 <p align="center">A Javascript package for creating beautiful wave forms.</p>
 
-<p align="center">[![npm](https://img.shields.io/npm/v/fluctus.svg)](https://www.npmjs.com/package/fluctus) [![npm](https://img.shields.io/npm/dw/fluctus.svg)](https://www.npmjs.com/package/fluctus)</p>
+[![npm](https://img.shields.io/npm/v/fluctus.svg)](https://www.npmjs.com/package/fluctus) [![npm](https://img.shields.io/npm/dw/fluctus.svg)](https://www.npmjs.com/package/fluctus)
 
 ## Introduction
 
