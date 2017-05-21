@@ -4,6 +4,8 @@
 
 <p align="center">A Javascript package for creating beautiful wave forms.</p>
 
+<p align="center">[![npm](https://img.shields.io/npm/v/fluctus.svg)](https://www.npmjs.com/package/fluctus) [![npm](https://img.shields.io/npm/dw/fluctus.svg)](https://www.npmjs.com/package/fluctus)</p>
+
 ## Introduction
 
 This package provides the ability to create beautiful waves with the use of the HTML canvas element. Fluctus uses vanilla JS and is super lightweight.
