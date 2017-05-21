@@ -21,7 +21,7 @@ Creating a new wave is as simple as passing in 6 arguments into the Fluctus crea
 fluctus(ID,Color, Zoom, Delay, Opacity, Height); 
 ```
 
-###Parameters
+### Parameters
 
 1. ID
 	The ID of the canvas element the wave should be drawn on.
