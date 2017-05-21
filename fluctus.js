@@ -1,7 +1,7 @@
 var unit = 100;
 var canvas, context, canvas2, context2, height, width, xAxis, yAxis, draw;
 
-function fluctus(element, color, zoom, delay, trans, h) {
+export default function fluctus(element, color, zoom, delay, trans, h) {
     canvas = document.getElementById(element);
     canvas.width = document.documentElement.clientWidth;
     canvas.height = h; //80
@@ -47,7 +47,7 @@ function drawSine(t, zoom, delay) {
     var x = t;
     var y = Math.sin(x) / zoom;
     context.moveTo(yAxis, unit * y + xAxis);
-    for (i = yAxis; i <= width + 10; i += 10) {
+    for (var i = yAxis; i <= width + 10; i += 10) {
       x = t + (-yAxis + i) / unit / zoom;
       y = Math.sin(x - delay) / 3;
       context.lineTo(i, unit * y + xAxis);

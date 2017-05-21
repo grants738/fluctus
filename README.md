@@ -10,12 +10,27 @@ This package provides the ability to create beautiful waves with the use of the 
 
 ## Quick Start
 
+### Install through npm
+
+```
+npm install fluctus
+```
+
+Then require or import Fluctus in:
+```
+import fluctus from 'fluctus'
+```
+
+### Install through repo files
+
 Fluctus Requires 2 things:
 
 1. A Canvas element ``` <canvas class="fluctus" id="wave1"></canvas> ```
 2. The Javascript ``` <script src="/js/fluctus.js"></script> ```
 
-Creating a new wave is as simple as passing in 6 arguments into the Fluctus create method:
+## Usage
+
+Creating a new wave is as simple as passing in 6 arguments into the Fluctus method:
 
 ```javascript
 fluctus(ID,Color, Zoom, Delay, Opacity, Height); 
