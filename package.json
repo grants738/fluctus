@@ -1,6 +1,6 @@
 {
   "name": "fluctus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package for creating beautiful wave forms.",
   "main": "fluctus.js",
   "repository": {
